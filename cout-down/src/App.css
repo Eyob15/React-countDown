@@ -1,4 +1,4 @@
-/* App Container */
+
 html, body {
   height: 100vh;
   margin: 0;
@@ -16,7 +16,7 @@ html, body {
   padding: 2rem;
 }
 
-/* Headings */
+
 h1 {
   font-size: 4vw;
   margin-bottom: 1rem;
@@ -28,7 +28,7 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-/* Input Styles */
+
 .date-input {
   width: 100%;
   max-width: 400px;
@@ -42,7 +42,7 @@ h1 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Button Styles */
+
 .set-date-button,
 .reset-button {
   margin-top: 1rem;
@@ -63,7 +63,7 @@ h1 {
   transform: scale(1.05);
 }
 
-/* Countdown Styles */
+
 .countdown {
   display: flex;
   justify-content: center;
@@ -78,7 +78,7 @@ h1 {
   width: 80%;
 }
 
-/* Countdown Item Styles */
+
 .countdown-item {
   flex: 1;
   margin: 0 5px;
@@ -101,7 +101,7 @@ h1 {
   color: #ccc;
 }
 
-/* Pulse Animation */
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -114,7 +114,7 @@ h1 {
   }
 }
 
-/* Countdown Ended Message */
+
 .countdown-ended {
   font-size: 2.5em;
   color: #ff0000;
@@ -122,7 +122,7 @@ h1 {
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   h1 {
     font-size: 5vw;
